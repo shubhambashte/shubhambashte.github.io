@@ -1,1 +1,219 @@
-"Hello Wold"
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="portfolio.css">
+    <script src="https://kit.fontawesome.com/e6d375a159.js" crossorigin="anonymous"></script>
+    <title>Portfolio</title>
+    <style>
+        .topnav {
+  overflow: hidden;
+  background-color: #333;
+  
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+    </style>
+</head>
+
+
+<body>
+    <!-- <nav>
+        <div class="logo">Shubham Bashte</div>
+      
+            
+      
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#Education">Education</a></li>
+            <li><a href="#Skill">Skill</a></li>
+        </ul>
+    </nav><br> -->
+    <div class="topnav" id="myTopnav">
+        <a href="#" class="active">Shubham Bashte</a>
+        <a href="#Home" >Home</a>
+        <a href="#About">Education</a>
+        <a href="#Skill">Skills</a>
+        <a href="#Contact">Contact</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+
+
+    <section id="Home"> <br><br>
+        <div class="image">
+            <img src="Shubham1.jpg" alt="" class="img">
+            <!-- <img src=""" style="border-radius: 8px;" alt="" height="300px" width="300px"> -->
+        </div>
+        <div class="data">
+            <br><br>
+            <h2 style="font-size: 30px; text-align: center;">Shubham Rajesh Bashte</h2><br>
+            <p>
+                My name is Shubham Rajesh Bashte, a 20-year-old BE in EXTC Engineering graduate with a passion for Web
+                development
+                I Believe that Every challenge is an opportunity to engineer solutions, and every mistake is a lesson in
+                the art of innovation
+            </p><br>
+            <p>As an Engineer, I would want to make an impact and revolutionized the world with different ideas.
+                This could be a change for the generation as well to be intrigued by the idea of concept to be the best.
+                Inovation and Experiments should be the moto for upbringing challenges to overcome it.
+                making an impact on the world to make thing happens with their own ability to change the thought process
+                of every individual.
+                Mindset should be positive to be arguably the best in the world.
+            </p><br>
+            <p>Beyond the Mind will have a change in the world.</p><br>
+
+
+        </div>
+
+    </section>
+    <section id="About">
+
+        <div class="card">
+            <i class="fa-solid fa-user-graduate" style="font-size: 40px;"></i>
+            <h2> Terna Engineering College</h2><br>
+            <p style="text-align: center;">B.E EXTC Engineering</p>
+            <p>Pursuing</p><br>
+            <div style="font-weight: lighter; text-align: left; padding: 5px;">
+                <b>Achievements:</b>
+                <p>1.Runners-up in Poster Exhibition</p>
+                <p>2.Runners-up in Cricket tournament</p><br>
+            </div>
+
+
+            <p style="text-align: right;">Dec 2021 - June 2026</p>
+
+
+
+        </div>
+        <div class="card">
+            <i class="fa-solid fa-building-columns" style="font-size: 40px;"></i>
+            <h2>Wamanrao Muranjan Jr College</h2><br>
+            <p>HSC Junior College</p>
+            <p>HSC Percentage: 81%</p><br>
+            <!-- <b style="">Achievements:</b>
+            <p>1.Participation in Science Exhibition</p>
+            <p>2.Runners-up in Cricket tournament</p><br> -->
+            <div style="font-weight: lighter; text-align: left; padding: 5px;">
+                <b>Achievements:</b> <br>
+                <p>1.Participation in Science Exhibition</p>
+                <p>2.Runners-up in Cricket tournament</p><br>
+            </div>
+            <p style="text-align: right;">Aug 2019 - June 2021</p>
+
+        </div>
+        <div class="card">
+            <i class="fa-solid fa-school" style="font-size: 40px;"></i>
+            <h2> Indian Education Society (IES)</h2><br>
+            <p>High Schooling</p>
+            <p>SSC Percentage: 75%</p><br>
+            <div style="font-weight: lighter; text-align: left; padding: 5px;">
+                <b>Achievements:</b> <br>
+                <p>1.Winner in Dodge Ball</p>
+                <p>2.Runners-up in Cricket tournament</p><br>
+            </div>
+
+            <p style="text-align: right;">Jun 2015 - June 2019</p>
+        </div>
+
+
+    </section>
+    <section id="Skill">
+
+    <h1>My Skills</h1> <br>
+
+    <p>HTML</p>
+    <div class="container">
+        <div class="skills html"></div>
+    </div> <br>
+
+    <p>CSS</p>
+    <div class="container">
+        <div class="skills css"></div>
+    </div><br>
+
+    <p>C Programming</p>
+    <div class="container">
+        <div class="skills C-programming"></div>
+    </div> <br>
+
+    <p>Python</p>
+    <div class="container">
+        <div class="skills Python"></div>
+    </div>
+</section>
+
+    <footer id="Contact">
+        <a href="https://www.linkedin.com/in/shubham-bashte/" target="_blank"><i
+                class="fa-brands fa-linkedin"></i></a></i>
+        <a href="https://github.com/shubhambashte/" target="_blank"><i class="fa-brands fa-github"></i></a></i>
+        <a href="https://www.instagram.com/shubhambashte/" target="_blank"><i
+                class="fa-brands fa-instagram"></i></a></i>
+        <a href="https://www.facebook.com/shubham.bashte/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+        <br>
+        <i class="fa-solid fa-envelope" style="font-size: 20px;"><a href="mailto:shubhamrbashte@gmail.com" target="_blank" style="text-decoration: none; font-size: 20px;"> shubhamrbashte@gmail.com</a></i>
+        <i class="fa-solid fa-phone" style="font-size: 20px;"><a href="Callto:+919137867094" target="_blank" style="text-decoration: none; font-size: 20px;"> +91 9137867094</a></i>
+     
+    </footer>
+
+</body>
+<script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+    </script>
+
+</html>
