@@ -1,0 +1,14 @@
+body{
+    border: 3px solid blueviolet;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: coral;
+}
+
+.container {
+    border: 3px soild blueviolet;
+    padding: 20px;
+    margin: 10px;
+}
