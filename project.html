@@ -1,64 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dice Game</title>
-    <style>
-        .card {
-  width: 300px;
-  border: 1px solid #ccc;
-  border-radius: 10px;
-  overflow: hidden;
-  margin: 20px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dice Game</title>
+  <style>
+    .card-container {
+      display: flex;
+    }
 
-.card img {
-  width: 100%;
-  height: 300px;
-  display: block;
-}
+    .card {
+      width: 300px;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      overflow: hidden;
+      margin: 20px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      background-color: #f0f0f0;
+    }
 
-.card-content {
-  padding: 20px;
-}
+    .card img {
+      width: 100%;
+      height: 300px;
+      display: block;
+    }
 
-.card-content h3 {
-  margin-top: 0;
-  font-size: 20px;
-}
+    .card-content {
+      padding: 20px;
+    }
 
-.card-content p {
-  margin-bottom: 15px;
-}
+    .card-content h3 {
+      margin-top: 0;
+      font-size: 20px;
+    }
 
-.btn {
-  display: inline-block;
-  padding: 10px 20px;
-  background-color: #007bff;
-  color: #fff;
-  text-decoration: none;
-  border-radius: 5px;
-  transition: background-color 0.3s ease;
- 
-}
+    .card-content p {
+      margin-bottom: 15px;
+    }
 
-.btn:hover {
-  background-color: #0056b3;
-}
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
 
-    </style>
+    }
+
+    .btn:hover {
+      background-color: #0056b3;
+    }
+  </style>
 </head>
+
 <body>
-    <div class="card">
-        <img src="Project/DiceGame/dice7.jpg" alt="">
-        <div class="card-content">
-          <h3>Dice Game</h3>
-          <p>A interesting dice game in which there are Two players rolls the dice and whoever dice has maximum number that players win </p>
-          <a href="Project/DiceGame/dice.html" target="_blank" class="btn">Play Now</a>
-        </div>
-      </div>
-      
+  <div class="card-container">
+  <div class="card">
+    <img src="Project/DiceGame/dice7.jpg" alt="">
+    <div class="card-content">
+      <h3>Dice Game</h3>
+      <p>A interesting dice game in which there are Two players rolls the dice and whoever dice has maximum number that
+        players win </p>
+      <a href="Project/DiceGame/dice.html" target="_blank" class="btn">Play Now</a>
+    </div>
+  </div>
+  <div class="card">
+    <img src="Project/TicTacToe Game/tictactoe.webp" alt="">
+    <div class="card-content">
+      <h3>Tic Tac Toe Game</h3>
+      <p>Play the classic game of Tic Tac Toe against your friends or the computer!</p>
+      <a href="Project/TicTacToe Game/tictactoe.html" class="btn">Play Now</a>
+    </div>
+  </div>
+  <div class="card">
+    <img src="Project/QR Code Generator/QR.jpeg" alt="">
+    <div class="card-content">
+      <h3>QR Code Generator</h3>
+      <p>A QR code Generator which generates a QR code after putting the content</p>
+      <a href="Project/QR Code Generator/QR.html" class="btn">Play Now</a>
+    </div>
+  </div>
+</div>
+
+
 </body>
+
 </html>
