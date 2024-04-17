@@ -72,7 +72,7 @@
 
 }
 body{
-    background-color: palevioletred;
+    background-color: slategray;
 }
 
 /* nav{
@@ -133,7 +133,7 @@ nav a{
 } */
 
 #Home{
-    background-color: palevioletred;
+    background-color: #8ecae6;
     width: 100%;
     height: auto;
     display: flex;
@@ -152,7 +152,7 @@ nav a{
     width: 90%;
     padding: 2px;
     border: 2px solid black;
-    border-radius: 8px;
+    border-radius: 50%;
 
 }
 #Home .data{
@@ -184,7 +184,7 @@ nav a{
         width: 90%;
     }
     .img{
-        border-radius: 8px;
+        border-radius: 50%;
         border: 5px solid black;
     
     }
@@ -192,8 +192,8 @@ nav a{
     
 }
 
-#About{
-    background-color: azure;
+#Education{
+    background-color: #219ebc;
     width: 100%;
     height: 500px;
     display: flex;
@@ -215,7 +215,7 @@ nav a{
     font-family: 'Times New Roman', Times, serif;
     font-size: 18px;
     font-weight: bold; 
-    background-color: light;
+    background-color: #ffb703;
     
  
     
@@ -244,18 +244,67 @@ nav a{
     }
     
 }
-
+/* 
 #Education{
-    /* background-color: darkseagreen; */
+    background-color: #AED581;
     width: 100%;
     height: 500px;
-}
+} */
 
+#project{
+    .card-container {
+      display: flex;
+    }
+
+    .card {
+      width: 300px;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      overflow: hidden;
+      margin: 20px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      background-color: #b455b0;
+    }
+
+    .card img {
+      width: 100%;
+      height: 300px;
+      display: block;
+    }
+
+    .card-content {
+      padding: 20px;
+    }
+
+    .card-content h3 {
+      margin-top: 0;
+      font-size: 20px;
+    }
+
+    .card-content p {
+      margin-bottom: 15px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+
+    }
+
+    .btn:hover {
+      background-color: #0056b3;
+    }
+}
 
 
 #Skill{
     padding: 10px;
-    /* background-color: wheat; */
+    background-color: #4169E1;
     font-size: large;
     font-weight: bolder;
     
@@ -278,15 +327,15 @@ nav a{
 
   
   
-  .html {width: 85%; background-color: #04AA6D;}
-  .css {width: 70%; background-color: #04AA6D;}
-  .C-programming {width: 75%; background-color: #04AA6D;}
-  .Python {width: 70%; background-color: #04AA6D;}
-  .Javascript {width: 75%; background-color: #04AA6D;}
-  .Bootstrap {width:60%; background-color: #04AA6D;}
+  .html {width: 85%; background-color: orange;}
+  .css {width: 70%; background-color: orange;}
+  .C-programming {width: 75%; background-color: orange;}
+  .Python {width: 70%; background-color: orange;}
+  .Javascript {width: 75%; background-color: orange;}
+  .Bootstrap {width:60%; background-color: orange;}
 
 footer{
-    background-color: powderblue;
+    background-color: black;
     color: black;
     justify-content: space-between;
     
@@ -298,7 +347,7 @@ footer{
 }
 i{
     font-size: 30px;
-    color: darkred;
+    color: greenyellow;
     padding:0px 5px 0px 5px;
 }
     </style>
@@ -320,7 +369,7 @@ i{
     <div class="topnav" id="myTopnav">
         <a href="#" class="active">Shubham Bashte</a>
         <a href="#Home" >Home</a>
-        <a href="#About">Education</a>
+        <a href="#Education">Education</a>
         <a href="#Skill">Skills</a>
         <a href="#Contact">Contact</a>
         <a href="project.html">Project</a>
@@ -356,9 +405,10 @@ i{
 
         </div>
 
-    </section>
-    <section id="About">
+    </section> 
 
+    <h1>Education</h1> 
+    <section id="Education">
         <div class="card">
             <i class="fa-solid fa-user-graduate" style="font-size: 40px;"></i>
             <h2> Terna Engineering College</h2><br>
@@ -367,7 +417,7 @@ i{
             <div style="font-weight: lighter; text-align: left; padding: 5px;">
                 <b>Achievements:</b>
                 <p>1.Runners-up in Poster Exhibition</p>
-                <p>2.Runners-up in Cricket tournament</p><br>
+                <p>2.Participation in Cricket tournament</p><br>
             </div>
 
 
@@ -387,7 +437,7 @@ i{
             <div style="font-weight: lighter; text-align: left; padding: 5px;">
                 <b>Achievements:</b> <br>
                 <p>1.Participation in Science Exhibition</p>
-                <p>2.Runners-up in Cricket tournament</p><br>
+                <p>2.Participation in Cricket tournament</p><br>
             </div>
             <p style="text-align: right;">Aug 2019 - June 2021</p>
 
@@ -408,6 +458,45 @@ i{
 
 
     </section>
+     <h1>Project</h1>
+    <section id="project">
+        <div class="card-container">
+            <div class="card">
+              <img src="Project/DiceGame/dice7.jpg" alt="">
+              <div class="card-content">
+                <h3>Dice Game</h3>
+                <p>A interesting dice game in which there are Two players rolls the dice and whoever dice has maximum number that
+                  players win </p>
+                <a href="Project/DiceGame/dice.html" target="_blank" class="btn">Play Now</a>
+              </div>
+            </div>
+            <div class="card">
+              <img src="Project/TicTacToe Game/tictactoe.webp" alt="">
+              <div class="card-content">
+                <h3>Tic Tac Toe Game</h3>
+                <p>Play the classic game of Tic Tac Toe against your friends or the computer!</p>
+                <a href="Project/TicTacToe Game/tictactoe.html" class="btn">Play Now</a>
+              </div>
+            </div>
+            <div class="card">
+              <img src="Project/QR Code Generator/QR.jpeg" alt="">
+              <div class="card-content">
+                <h3>QR Code Generator</h3>
+                <p>A QR code Generator which generates a QR code after putting the content</p>
+                <a href="Project/QR Code Generator/QR.html" class="btn">Play Now</a>
+              </div>
+            </div>
+          </div>
+          
+
+
+
+
+    </section>
+
+
+
+
     <section id="Skill">
 
     <h1>My Skills</h1> <br>
