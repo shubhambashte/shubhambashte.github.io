@@ -10,6 +10,7 @@ body{
 .container {
     border: 3px soild blueviolet;
     padding: 20px;
+<<<<<<< HEAD
     max-width: 500px;
     height: 100px;
     width: 100%;
@@ -27,3 +28,8 @@ button {
 #qrCode {
     margin-top: 20px;
 }
+=======
+    max-width: 400px;
+    margin: 0 auto;
+}
+>>>>>>> bf8f0792f8b36a049b232d4c459dcb6ad78bd226
