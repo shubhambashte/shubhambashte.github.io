@@ -10,5 +10,20 @@ body{
 .container {
     border: 3px soild blueviolet;
     padding: 20px;
-    margin: 10px;
+    max-width: 500px;
+    height: 100px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#qrCode {
+    margin-top: 20px;
 }
