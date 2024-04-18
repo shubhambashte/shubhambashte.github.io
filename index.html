@@ -244,26 +244,39 @@ nav a{
     }
     
 }
-/* 
+
 #Education{
-    background-color: #AED581;
+    background-color: #023047;
     width: 100%;
     height: 500px;
-} */
+}
 
 #project{
     .card-container {
       display: flex;
     }
 
+    .card-content {
+      display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 5px;
+
+    }
+
     .card {
+      flex-direction: column;
+      display: flex;
+      height: 550px;
       width: 300px;
+      padding: 5px;
       border: 1px solid #ccc;
       border-radius: 10px;
       overflow: hidden;
       margin: 20px;
+      margin-bottom: 5px;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-      background-color: #b455b0;
+      background-color: #9b2915;
     }
 
     .card img {
@@ -407,8 +420,8 @@ i{
 
     </section> 
 
-    <h1>Education</h1> 
-    <section id="Education">
+    <h1 style="background-color: #023047; color: #0fa3b1;">Education</h1> 
+    <section id="Education" style="color: #023047;">
         <div class="card">
             <i class="fa-solid fa-user-graduate" style="font-size: 40px;"></i>
             <h2> Terna Engineering College</h2><br>
@@ -458,8 +471,8 @@ i{
 
 
     </section>
-     <h1>Project</h1>
-    <section id="project">
+     <h1 style="background-color: #0a6c75;">Project</h1>
+    <section id="project" style="color: #000000; background-color: #0a6c75;" >
         <div class="card-container">
             <div class="card">
               <img src="Project/DiceGame/dice7.jpg" alt="">
